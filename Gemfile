@@ -41,6 +41,8 @@ group :development, :test do
 end
 
 gem 'rest-client'
+gem 'carrierwave'
+gem 'mini_magick'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
