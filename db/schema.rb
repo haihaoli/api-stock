@@ -10,14 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170518211501) do
+ActiveRecord::Schema.define(version: 20170524225526) do
 
   create_table "stocks", force: :cascade do |t|
     t.string   "gid"
     t.string   "name"
-    t.integer  "price"
-    t.integer  "ROR"
+    t.integer  "lastestpri"
     t.integer  "markvalue"
+    t.integer  "priearn"
+    t.integer  "ror"
     t.time     "ustime"
     t.string   "minurl"
     t.datetime "created_at", null: false
